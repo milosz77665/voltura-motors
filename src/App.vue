@@ -1,6 +1,7 @@
 <script setup lang="ts">
+import Header from "./components/Header.vue";
 </script>
 
 <template>
-  <h1>Voltura Motors</h1>
+  <Header />
 </template>
