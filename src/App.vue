@@ -5,7 +5,7 @@ import Hero from "./components/Hero.vue";
 
 <template>
   <Header />
-  <main class="container mt-4 d-flex flex-column gap-5">
+  <main v-fix-orphans class="container mt-4 d-flex flex-column gap-5">
     <Hero />
   </main>
 </template>
