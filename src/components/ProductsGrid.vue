@@ -16,19 +16,26 @@ function onProductSelected(productId: number) {
 </script>
 
 <template>
-  <div class="row row-cols-1 gy-3 gx-sm-2 row-cols-sm-2 row-cols-lg-3 g-xl-5">
-    <div class="col" v-for="product of products" :key="product.id">
-      <ProductCard
-        :name="product.name"
-        :image="product.image"
-        :price="product.price"
-        :currency="product.currency"
-        :type="product.type"
-        :drive="product.drive"
-        :details="product.details"
-        @product-selected="onProductSelected(product.id)"
-      />
+  <div>
+    <div v-if="products.length > 0" class="row row-cols-1 gy-3 gx-sm-2 row-cols-sm-2 row-cols-lg-3 g-xl-5">
+      <div class="col" v-for="product of products" :key="product.id">
+        <ProductCard
+          :name="product.name"
+          :image="product.image"
+          :price="product.price"
+          :currency="product.currency"
+          :type="product.type"
+          :drive="product.drive"
+          :details="product.details"
+          @product-selected="onProductSelected(product.id)"
+        />
+      </div>
     </div>
+
+    <div v-else class="text-center py-5">
+      <p class="h5 text-muted">Brak wyników</p>
+    </div>
+
     <Teleport to="body">
       <Transition>
         <ProductModal :product="chosenProduct" @close="chosenProduct = null" />
