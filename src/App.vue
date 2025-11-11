@@ -4,6 +4,7 @@ import Hero from "./components/Hero.vue";
 import Products from "./components/Products.vue";
 import TestDriveCTA from "./components/TestDriveCTA.vue";
 import FAQ from "./components/FAQ.vue";
+import FinalCTA from "./components/FinalCTA.vue";
 </script>
 
 <template>
@@ -13,5 +14,6 @@ import FAQ from "./components/FAQ.vue";
     <Products />
     <TestDriveCTA />
     <FAQ />
+    <FinalCTA />
   </main>
 </template>
