@@ -13,6 +13,11 @@ onMounted(() => {
   if (modalRef.value) {
     modalInstance.value = new Modal(modalRef.value);
 
+    modalRef.value.addEventListener("hide.bs.modal", () => {
+      if (document.activeElement instanceof HTMLElement) {
+        document.activeElement.blur();
+      }
+    });
     modalRef.value.addEventListener("hidden.bs.modal", () => {
       emit("close");
     });
@@ -32,14 +37,7 @@ watch(
 </script>
 
 <template>
-  <div
-    ref="modalRef"
-    class="modal fade"
-    id="productModal"
-    tabindex="-1"
-    aria-labelledby="productModalLabel"
-    aria-hidden="true"
-  >
+  <div ref="modalRef" class="modal fade" id="productModal" tabindex="-1" aria-labelledby="productModalLabel">
     <div class="modal-dialog modal-xl">
       <ModalContent v-if="product" :product="product" />
     </div>
