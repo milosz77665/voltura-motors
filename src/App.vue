@@ -3,6 +3,7 @@ import Header from "./components/Header.vue";
 import Hero from "./components/Hero.vue";
 import Products from "./components/Products.vue";
 import TestDriveCTA from "./components/TestDriveCTA.vue";
+import FAQ from "./components/FAQ.vue";
 </script>
 
 <template>
@@ -11,5 +12,6 @@ import TestDriveCTA from "./components/TestDriveCTA.vue";
     <Hero />
     <Products />
     <TestDriveCTA />
+    <FAQ />
   </main>
 </template>
