@@ -16,4 +16,9 @@ import FinalCTA from "./components/FinalCTA.vue";
     <FAQ />
     <FinalCTA />
   </main>
+  <footer class="mt-4 p-5 border-top">
+    <div class="container">
+      <p class="text-body-tertiary">© 2025 Voltura Motors</p>
+    </div>
+  </footer>
 </template>
