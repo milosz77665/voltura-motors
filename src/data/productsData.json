@@ -1,0 +1,96 @@
+[
+  {
+    "id": 1,
+    "name": "Voltura ZX 2025",
+    "image": { "path": "/images/voltura_zx.webp", "alt": "Samochód Voltura (Sedan) ZX 2025" },
+    "galleryImagePaths": [
+      { "path": "/images/modal_big.webp", "alt": "Zielony sedan Voltura w ruchu na autostradzie." },
+      {
+        "path": "/images/modal_small_1.webp",
+        "alt": "Srebrny sedan Voltura zaparkowany na ulicy nowoczesnego miasta."
+      },
+      {
+        "path": "/images/modal_small_2.webp",
+        "alt": "Rodzina podziwiająca zachód słońca nad jeziorem obok swojego srebrnego sedana Voltura."
+      },
+      {
+        "path": "/images/modal_small_3.webp",
+        "alt": "Uśmiechnięty mężczyzna w kokpicie nowoczesnego samochodu Voltura."
+      }
+    ],
+    "price": "100 999",
+    "currency": "zł",
+    "type": "Sedan",
+    "drive": "Elektryczny",
+    "details": "AWD • 400km range",
+    "keyFeatures": [
+      { "name": "0–100 km/h", "value": "5.8s" },
+      { "name": "Maksymalna prędkość", "value": "210 km/h" },
+      { "name": "Ładowanie", "value": "120 kW DC" },
+      { "name": "Pojemność bagażnika", "value": "520 L" },
+      { "name": "Gwarancja", "value": "5 lat" }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Voltura PX 2025",
+    "image": { "path": "/images/voltura_px.webp", "alt": "Samochód Voltura (CUV) PX 2025" },
+    "galleryImagePaths": [
+      { "id": 1, "path": "/images/modal_big.webp", "alt": "Zielony sedan Voltura w ruchu na autostradzie." },
+      {
+        "path": "/images/modal_small_1.webp",
+        "alt": "Srebrny sedan Voltura zaparkowany na ulicy nowoczesnego miasta."
+      },
+      {
+        "path": "/images/modal_small_2.webp",
+        "alt": "Rodzina podziwiająca zachód słońca nad jeziorem obok swojego srebrnego sedana Voltura."
+      },
+      {
+        "path": "/images/modal_small_3.webp",
+        "alt": "Uśmiechnięty mężczyzna w kokpicie nowoczesnego samochodu Voltura."
+      }
+    ],
+    "price": "120 999",
+    "currency": "zł",
+    "type": "CUV",
+    "drive": "Hybrydowy",
+    "details": "AWD • 500km range",
+    "keyFeatures": [
+      { "name": "0–100 km/h", "value": "7.9s" },
+      { "name": "Maksymalna prędkość", "value": "200 km/h" },
+      { "name": "Pojemność bagażnika", "value": "620 L" },
+      { "name": "Gwarancja", "value": "15 lat" }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Voltura SX 2025",
+    "image": { "path": "/images/voltura_sx.webp", "alt": "Samochód Voltura (SUV) SX 2025" },
+    "galleryImagePaths": [
+      { "path": "/images/modal_big.webp", "alt": "Zielony sedan Voltura w ruchu na autostradzie." },
+      {
+        "path": "/images/modal_small_1.webp",
+        "alt": "Srebrny sedan Voltura zaparkowany na ulicy nowoczesnego miasta."
+      },
+      {
+        "path": "/images/modal_small_2.webp",
+        "alt": "Rodzina podziwiająca zachód słońca nad jeziorem obok swojego srebrnego sedana Voltura."
+      },
+      {
+        "path": "/images/modal_small_3.webp",
+        "alt": "Uśmiechnięty mężczyzna w kokpicie nowoczesnego samochodu Voltura."
+      }
+    ],
+    "price": "99 999",
+    "currency": "zł",
+    "type": "SUV",
+    "drive": "Hybrydowy",
+    "details": "AWD • 300km range",
+    "keyFeatures": [
+      { "name": "0–100 km/h", "value": "8.9s" },
+      { "name": "Maksymalna prędkość", "value": "190 km/h" },
+      { "name": "Pojemność bagażnika", "value": "600 L" },
+      { "name": "Gwarancja", "value": "3 lata" }
+    ]
+  }
+]
