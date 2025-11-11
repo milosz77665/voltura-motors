@@ -15,10 +15,10 @@ onMounted(() => {
 
 function onClick() {
   if (isOpen.value) {
-    collapseInstance.value.hide();
+    collapseInstance.value?.hide();
     isOpen.value = false;
   } else {
-    collapseInstance.value.show();
+    collapseInstance.value?.show();
     isOpen.value = true;
   }
 }
